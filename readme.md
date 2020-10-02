@@ -2,7 +2,7 @@
 
 ---
 
-![image](/assets/GTFS post title_600x200@2x.png)
+![image](assets/GTFS_post_title_600x200@2x.png)
 
 ## about
 
