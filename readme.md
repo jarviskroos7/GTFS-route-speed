@@ -2,6 +2,8 @@
 
 ---
 
+![image](/assets/GTFS post title_600x200@2x.png)
+
 ## about
 
 current [GTFS](https://gtfs.org/best-practices/#introduction) feeds are versitle in describing the operating and routing of the public transit services on trip planning and servicing schedules. while the specification has been made public and is widely adopted by cities and trip planning agencies, the interpretibility of the feeds requires proprietary softwares that had few expandability. the idea of this open-source project is to expand and build upon my experience working closely with GTFS feeds in Python.
