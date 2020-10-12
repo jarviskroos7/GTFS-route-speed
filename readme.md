@@ -35,8 +35,8 @@ $ python3 route_speed.py -r <route_short_name> -rid <route_id> -tid <trip_id> -t
 - `-r` or `--route_short_name`: the **route_short_name** of the target bus route for route speed estimate, string;
 - `-rid` or `--route_id`: the **route_id** of the target bus route for route speed estimate, np.int64;
 - `-tid` or `--trip_id`: the **trip_id** of the target bus route for route speed estimate, string;
-- `-p` or `--path`: the **absolute path** to the GTFS feed directory, if none is provided, will be using the current directory as the feed directory;
-- `-t` or `--time`: the specific hour of trip departure;
+- `-p` or `--path`: the **absolute path** to the GTFS feed directory, if none is provided, will be using the current directory as the feed directory, string;
+- `-t` or `--time`: the specific hour of trip departure, np.int64;
 - `-s` or `--shape`: whether a `shape.txt` is used for the route distance estimate, if `False` then it will use `stops.txt` for less accurate estimate [under development as of 10/02/2020].
 - either **one** valid `route_short_name`, `route_id`, or `trip_id` is sufficient.
 - ...
