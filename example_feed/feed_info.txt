@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version
+secretaria de movilidad,http://www.movilidadbogota.gov.co,es,20160102,20200101,5

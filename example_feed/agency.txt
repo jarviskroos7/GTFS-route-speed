@@ -1,0 +1,7 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url
+1,Transmilenio-Troncal,http://www.sitp.gov.co,America/Bogota,es,,
+2,Transmilenio-Alimentadores,http://www.sitp.gov.co,America/Bogota,es,,
+3,Transmilenio-Urbana,http://www.sitp.gov.co,America/Bogota,es,,
+4,Transmilenio-Complementaria,http://www.sitp.gov.co,America/Bogota,es,,
+5,Transmilenio-Especial,http://www.sitp.gov.co,America/Bogota,es,,
+6,Transmilenio-Dual,http://www.sitp.gov.co,America/Bogota,es,018000115510 ,
