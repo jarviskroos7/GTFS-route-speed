@@ -29,7 +29,7 @@ $ pip install -r requirements.txt
 #### command line usage
 
 ```bash
-$ python3 route_speed.py -r <route_short_name> -rid <route_id> -tid <trip_id> -t <hour of departure> -p <abs_path_to_gtfs> -s <True/False>
+$ python3 route_speed.py -r <route_short_name> -rid <route_id> -tid <trip_id> -t <hour of departure> -d <day of week> -p <abs_path_to_gtfs> -s <True/False>
 ```
 
 - `-r` or `--route_short_name`: the **route_short_name** of the target bus route for route speed estimate, string;
