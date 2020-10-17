@@ -50,6 +50,6 @@ $ python3 route_speed.py -r <route_short_name> -rid <route_id> -tid <trip_id> -t
 ```bash
 from route_speed import get_avg_route_speed
 
-get_avg_route_speed(route_short_name, route_id, trip_id, absolute path, hasShape, hour, day)
+get_avg_route_speed(route_short_name, route_id, trip_id, absolute_path, hasShape, hour, day)
 ```
 Refer to [this example usage notebook](https://github.com/jarviskroos7/GTFS-route-speed/tree/main/example) for more examples
