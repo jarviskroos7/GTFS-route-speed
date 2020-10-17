@@ -36,7 +36,9 @@ $ python3 route_speed.py -r <route_short_name> -rid <route_id> -tid <trip_id> -t
 - `-rid` or `--route_id`: the **route_id** of the target bus route for route speed estimate, np.int64;
 - `-tid` or `--trip_id`: the **trip_id** of the target bus route for route speed estimate, string;
 - `-p` or `--path`: the **absolute path** to the GTFS feed directory, if none is provided, will be using the current directory as the feed directory, string;
-- `-t` or `--time`: the specific hour of trip departure, np.int64;
+- `-t` or `--time`: the specific hour of trip departure, np.int64, *optional*;
+- `-d` or `--day`: a day in the week, *optional*;
+  - ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 - `-s` or `--shape`: whether a `shape.txt` is used for the route distance estimate, if `False` then it will use `stops.txt` for less accurate estimate [under development as of 10/02/2020].
 - either **one** valid `route_short_name`, `route_id`, or `trip_id` is sufficient.
 - ...
@@ -48,5 +50,6 @@ $ python3 route_speed.py -r <route_short_name> -rid <route_id> -tid <trip_id> -t
 ```bash
 from route_speed import get_avg_route_speed
 
-get_avg_route_speed(route_short_name, route_id, trip_id, absolute path, hasShape)
+get_avg_route_speed(route_short_name, route_id, trip_id, absolute path, hasShape, hour, day)
 ```
+Refer to [this example usage notebook](https://github.com/jarviskroos7/GTFS-route-speed/tree/main/example) for more examples
