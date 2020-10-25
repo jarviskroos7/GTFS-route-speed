@@ -195,7 +195,7 @@ def check_day_of_week(trips_route, trips, calendar, day, route_id, trip_id=None)
         
         if service[day].iloc[0] == 1: # should only be returning on row here
             print('-- service is available on', day, 'for route', route_id)
-            print('-- cauculating route speed on', day)
+            print('-- calculating route speed on', day)
             status = True
             return service_id
     if status == False:
